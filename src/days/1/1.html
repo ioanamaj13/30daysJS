@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nostalgic revisit of JS30 - sound and image</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header"> 
+        <div>
+            <button class="allowSound">
+                you have to click me to let me play sound    
+            </button>
+          <button class="playSound">
+            Play Sound
+          </button>
+          <button class="stopSound">
+            Stop Sound
+        </div>
+        <div>
+            Press escape to stop sound
+        </div>
+    </header>
+    <main>
+        <div> <canvas class="canvas" id="canvas"> </canvas> </div>
+        <div class="info">
+            <div id="canvasHeight"> </div>
+            <div id="canvasWidth"> </div>
+        </div>
+        <div class="circle1">
+            <div> X:  <span id="x"> </span> </div>
+            <div> Y:  <span id="y"> </span> </div>
+            <div> radius:  <span id="radius"> </span> </div>
+        </div>
+    </main>  
+
+  </body>
+
+  <script src="./playSound.js"></script>
+  <script src="./canvas.js"></script>
+</html>
